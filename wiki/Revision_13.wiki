@@ -1,0 +1,14 @@
+*Revision 13*
+
+ * A windows azure database was created called Project
+ * Just one table called Task was created with 4 fields:
+  # Task_Name
+  # Row_No
+  # Start_Time
+  # End_time
+ * 3 lines of sample data were entered.
+
+
+ * An MVC3 Project was created with 2 working web pages - Home & Task
+ * A class model was created by successfully connecting to Azure database
+ * The MVC Project was deployed to Azure and ran successfully in Firefox.
