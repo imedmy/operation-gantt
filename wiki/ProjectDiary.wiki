@@ -1,4 +1,4 @@
 ||*Summary*||*Date*||
-||1. Create Google Code Project Hosting Site||02nd October 2012||
-||2. Upload Revision 1 Source Code Upload|| || 
-||2. Revision 1 Screenshots||20th October 2012||
+||0. Create Google Code Project Hosting Site||02nd October 2012||
+||1. Upload Revision 1 Source Code||20th October 2012|| 
+||1. Upload Revision 1 Screenshots||20th October 2012||
