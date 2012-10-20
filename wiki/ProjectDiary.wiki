@@ -1,0 +1,15 @@
+#summary Project Diary
+
+= Introduction =
+
+This is a project diary
+
+
+= Details =
+
+==Summary==                             ==Date==
+1. Create Google Code Project
+   Hosting Site                         02nd October 2012
+
+2. Upload Revision 1 Source Code
+   Upload Revision 1 Screenshots        20th October 2012
