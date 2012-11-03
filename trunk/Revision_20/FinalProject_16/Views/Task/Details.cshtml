@@ -1,0 +1,35 @@
+﻿@model FinalProject_16.Models.Task
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Task</legend>
+
+    <div class="display-label">Row_ID</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Row_ID)
+    </div>
+
+    <div class="display-label">Task_Name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Task_Name)
+    </div>
+
+    <div class="display-label">Start_Time</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Start_Time)
+    </div>
+
+    <div class="display-label">End_Time</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.End_Time)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
