@@ -1,7 +1,0 @@
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\bin\FinalProject1.1.dll
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\bin\FinalProject1.1.pdb
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\bin\EntityFramework.dll
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\bin\EntityFramework.xml
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\obj\Debug\FinalProject1.1.dll
-C:\Users\GARY\Documents\Visual Studio 2010\Projects\FinalProject1.1\FinalProject1.1\obj\Debug\FinalProject1.1.pdb
