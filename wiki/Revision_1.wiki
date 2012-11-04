@@ -1,4 +1,4 @@
-*Revision 13*
+*Revision 1*
 
  * A windows azure database was created called Project
  * Just one table called Task was created with 4 fields:
