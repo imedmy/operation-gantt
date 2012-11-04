@@ -1,5 +1,5 @@
 ||*Summary*||*Date*||
 ||Create Google Code Project Hosting Site||02nd October 2012||
-||Upload Revision 13 Source Code||20th October 2012|| 
-||Upload Revision 13 Screenshots||20th October 2012||
-||Upload Revision 20 Source Code||03rd November 2012||
+||Upload Revision 1 Source Code||20th October 2012|| 
+||Upload Revision 1 Screenshots||20th October 2012||
+||Upload Revision 2 Source Code||03rd November 2012||
