@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MiniProjectModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="MiniProjectModelStoreContainer">
+    <EntitySet Name="CityLocation" EntityType="MiniProjectModel.Store.CityLocation" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CityLocation">
+    <Key>
+      <PropertyRef Name="Country" />
+      <PropertyRef Name="City" />
+    </Key>
+    <Property Name="Country" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Latitude" Type="float" Nullable="false" />
+    <Property Name="Longitude" Type="float" Nullable="false" />
+  </EntityType>
+</Schema>
