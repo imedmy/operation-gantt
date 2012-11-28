@@ -1,0 +1,9 @@
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\bin\Release\ServiceConfiguration.cscfg
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\bin\Release\ValidationIssues.xml
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\bin\CityDist.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\bin\Microsoft.WindowsAzure.Configuration.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\bin\Microsoft.WindowsAzure.Diagnostics.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\bin\Microsoft.WindowsAzure.StorageClient.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\DistService.svc
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\packages.config
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Release\CityDist\Web.config
