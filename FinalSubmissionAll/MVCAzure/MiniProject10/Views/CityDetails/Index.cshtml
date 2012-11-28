@@ -1,0 +1,50 @@
+﻿@model IEnumerable<MiniProject10.Models.CityLocation>
+
+@{
+    ViewBag.Title = "Database";
+}
+
+<h2>City Location Database</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Country
+        </th>
+        <th>
+            City
+        </th>
+        <th>
+            Latitude
+        </th>
+        <th>
+            Longitude
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Country)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.City)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Latitude)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Longitude)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id1 = item.Country, id2 = item.City}) |
+            @Html.ActionLink("Delete", "Delete", new { id1 = item.Country, id2 = item.City })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject10WebFinal", "MiniProject10\MiniProject10WebFinal.csproj", "{3BFA4A81-19D2-4F38-A648-12B9F0E95649}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "MiniProject10WebFinal.Azure", "MiniProject10WebFinal.Azure\MiniProject10WebFinal.Azure.ccproj", "{5D2294C4-063A-45CF-BEE6-A2C6988198FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BFA4A81-19D2-4F38-A648-12B9F0E95649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFA4A81-19D2-4F38-A648-12B9F0E95649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFA4A81-19D2-4F38-A648-12B9F0E95649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFA4A81-19D2-4F38-A648-12B9F0E95649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2294C4-063A-45CF-BEE6-A2C6988198FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2294C4-063A-45CF-BEE6-A2C6988198FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2294C4-063A-45CF-BEE6-A2C6988198FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2294C4-063A-45CF-BEE6-A2C6988198FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

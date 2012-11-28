@@ -1,0 +1,1 @@
+G:\MiniProjectTuesday\MiniProjectMVCFinal\MiniProjectRev8\MiniProjectRev2\MiniProject10WebFinal.Azure\bin\Debug\ServiceConfiguration.cscfg
