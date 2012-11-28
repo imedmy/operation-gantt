@@ -1,0 +1,7 @@
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\bin\Debug\TestProject1.dll
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\bin\Debug\TestProject1.pdb
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\bin\Debug\CityDist.dll
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\bin\Debug\CityDist.pdb
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\obj\Debug\TestProject1.dll
+G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\TestProject1\obj\Debug\TestProject1.pdb

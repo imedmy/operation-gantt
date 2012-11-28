@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9de547df-d694-4bfa-a946-7e0ce3eae031" name="GARY@GARY-PC 2012-11-28 20:52:43" runUser="GARY-PC\GARY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="970eadd2-88e0-445a-be37-d89926099355">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="GARY_GARY-PC 2012-11-28 20_52_43">
+      <DeploymentItem filename="G:\MiniProjectTuesday\CityDist(Mick) (4)\CityDist(Mick) (3)\CityDist(Mick)\CityDist\CityDist\bin\CityDist.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-28T20:52:43.1247201+00:00" queuing="2012-11-28T20:52:45.5157201+00:00" start="2012-11-28T20:52:45.6297201+00:00" finish="2012-11-28T20:52:47.1067201+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="g:\miniprojecttuesday\citydist(mick) (4)\citydist(mick) (3)\citydist(mick)\citydist\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="1b0ff094-533e-4e18-88b5-a7a4131ac87f" />
+      <TestMethod codeBase="G:/MiniProjectTuesday/CityDist(Mick) (4)/CityDist(Mick) (3)/CityDist(Mick)/CityDist/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="g:\miniprojecttuesday\citydist(mick) (4)\citydist(mick) (3)\citydist(mick)\citydist\testproject1\bin\debug\testproject1.dll" id="9381223e-8095-9777-a0c7-26043045171c">
+      <Execution id="d7fa67d7-64df-4e45-bba9-cb5a1a361363" />
+      <TestMethod codeBase="G:/MiniProjectTuesday/CityDist(Mick) (4)/CityDist(Mick) (3)/CityDist(Mick)/CityDist/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="1b0ff094-533e-4e18-88b5-a7a4131ac87f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9381223e-8095-9777-a0c7-26043045171c" executionId="d7fa67d7-64df-4e45-bba9-cb5a1a361363" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1b0ff094-533e-4e18-88b5-a7a4131ac87f" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="GARY-PC" duration="00:00:00.0663476" startTime="2012-11-28T20:52:45.9317201+00:00" endTime="2012-11-28T20:52:46.9237201+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b0ff094-533e-4e18-88b5-a7a4131ac87f">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7fa67d7-64df-4e45-bba9-cb5a1a361363" testId="9381223e-8095-9777-a0c7-26043045171c" testName="TestMethod2" computerName="GARY-PC" duration="00:00:00.0002547" startTime="2012-11-28T20:52:46.9457201+00:00" endTime="2012-11-28T20:52:46.9517201+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7fa67d7-64df-4e45-bba9-cb5a1a361363">
+    </UnitTestResult>
+  </Results>
+</TestRun>
