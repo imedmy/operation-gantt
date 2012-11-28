@@ -1,0 +1,7 @@
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\bin\Debug\ServiceConfiguration.cscfg
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Debug\CityDist\bin\CityDist.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Debug\CityDist\bin\CityDist.pdb
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Debug\CityDist\bin\Microsoft.WindowsAzure.Configuration.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Debug\CityDist\bin\Microsoft.WindowsAzure.Diagnostics.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Debug\CityDist\bin\Microsoft.WindowsAzure.Diagnostics.xml
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist.Azure\obj\Debug\CityDist\bin\Microsoft.WindowsAzure.StorageClient.dll

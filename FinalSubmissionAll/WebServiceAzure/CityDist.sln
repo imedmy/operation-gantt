@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityDist", "CityDist\CityDist.csproj", "{9D968717-3FA0-4026-93B4-F781AA90B305}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CityDist.Azure", "CityDist.Azure\CityDist.Azure.ccproj", "{2D3B9ADA-38F3-41D8-906E-6E6D82632BA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D968717-3FA0-4026-93B4-F781AA90B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D968717-3FA0-4026-93B4-F781AA90B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D968717-3FA0-4026-93B4-F781AA90B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D968717-3FA0-4026-93B4-F781AA90B305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3B9ADA-38F3-41D8-906E-6E6D82632BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3B9ADA-38F3-41D8-906E-6E6D82632BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3B9ADA-38F3-41D8-906E-6E6D82632BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3B9ADA-38F3-41D8-906E-6E6D82632BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

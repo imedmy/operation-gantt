@@ -1,0 +1,9 @@
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\bin\CityDist.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\bin\CityDist.pdb
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\bin\Microsoft.WindowsAzure.Configuration.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\bin\Microsoft.WindowsAzure.Diagnostics.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\bin\Microsoft.WindowsAzure.StorageClient.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\bin\Microsoft.WindowsAzure.Diagnostics.xml
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\obj\Release\ResolveAssemblyReference.cache
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\obj\Release\CityDist.dll
+G:\MiniProjectTuesday\WebServiceWEBRoles\CityDist\CityDist\CityDist\obj\Release\CityDist.pdb
