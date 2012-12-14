@@ -6,7 +6,7 @@ For the first iteration the intention as stated in the Analysis  Document was to
 
 ----
 Both User Stories were successfully implemented within the context of Entity Framework. This was achieved by the following:
- * A Windows Azure Database called project was created
+ * A Windows Azure Database called Project was created
  * One table called Task was created with 4 fields:
    # Row_ID
    # Task_Name
