@@ -1,11 +1,19 @@
 *Iteration 1*
 
- * For the first iteration the intention as stated in the Analysis  Document was to implement the following:
+For the first iteration the intention as stated in the Analysis  Document was to implement the following:
   # User Story 5: Add New Task
   # User Story 6: Edit Existing Task
 
- * Both User Stories were successfully implemented within the Entity Framework. This was achieved by the following:
+Both User Stories were successfully implemented within the context of Entity Framework. This was achieved by the following:
+ * A Windows Azure Database called project was created
+ * One table called Task was created with 4 fields:
+   # Row_ID
+   # Task_Name
+   # Start_Time
+   # End_Time
+A new web page called Task was created that used CRUD and Entity Framework to manage all tasks within Azure Database.
+
+An additional web page was then created called MyChart with the intention of displaying all previous tasks in a Gantt chart. This will now be completed in Iteration 2. However Iteration 1 did successfully display a Gantt Chart from hard coded data using in built charting controls within the .Net Framework.
+
+Unit testing of the Task webpage and the CRUD was successfully achieved.
  
- * MVC3 Project was re-created for new table
- * CRUD was successfully implemented for this table
- * Application is now run locally but database is still on Azure
