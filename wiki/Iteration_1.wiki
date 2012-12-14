@@ -1,15 +1,11 @@
 *Iteration 1*
 
- * For the first iteration the intention as stated in the Analysis  *Document was to implement the following:
-  # Row_ID
-  # Task_Name
-  # Start_Time
-  # End_time
+ * For the first iteration the intention as stated in the Analysis  Document was to implement the following:
+  # User Story 5: Add New Task
+  # User Story 6: Edit Existing Task
+
+ * Both User Stories were successfully implemented within the Entity Framework. This was achieved by the following:
  
  * MVC3 Project was re-created for new table
  * CRUD was successfully implemented for this table
  * Application is now run locally but database is still on Azure
-
-For the first iteration the intention as stated in the Analysis Document was to implement the following: 
-User Story 5: Add New Task
-User Story 6: Edit Existing Task
