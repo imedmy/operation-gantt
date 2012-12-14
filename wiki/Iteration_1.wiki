@@ -1,6 +1,6 @@
 *Iteration 1*
 
- * Task table was modified to:
+ * For the first iteration the intention as stated in the Analysis  *Document was to implement the following:
   # Row_ID
   # Task_Name
   # Start_Time
