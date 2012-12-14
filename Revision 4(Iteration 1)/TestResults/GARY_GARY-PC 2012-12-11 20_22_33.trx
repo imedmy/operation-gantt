@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="40170b48-9f1e-4de7-b6ae-f74342a69e59" name="GARY@GARY-PC 2012-12-11 20:22:33" runUser="GARY-PC\GARY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4ca48695-c30c-4879-942c-091a54fb5e99">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="GARY_GARY-PC 2012-12-11 20_22_33">
+      <DeploymentItem filename="C:\Users\GARY\Desktop\ProjectDec\Iteration_1\Iteration_1\Roisin2\Revision3\Revision_3\FinalProject_16\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\GARY\Desktop\ProjectDec\Iteration_1\Iteration_1\Roisin2\Revision3\Revision_3\FinalProject_16\FinalProject_16\bin\FinalProject_16.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-11T20:22:33.7240000+00:00" queuing="2012-12-11T20:22:33.8380000+00:00" start="2012-12-11T20:22:33.8720000+00:00" finish="2012-12-11T20:22:35.7050000+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateTest" storage="c:\users\gary\desktop\projectdec\iteration_1\iteration_1\roisin2\revision3\revision_3\finalproject_16\testproject1\bin\debug\testproject1.dll" id="07ce9f38-6ad8-6b2d-2f6f-4498928ae798">
+      <Execution id="d059b531-49dd-4815-8339-a7cad80e6fe6" />
+      <TestMethod codeBase="C:/Users/GARY/Desktop/ProjectDec/Iteration_1/Iteration_1/Roisin2/Revision3/Revision_3/FinalProject_16/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.TaskControllerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="07ce9f38-6ad8-6b2d-2f6f-4498928ae798" executionId="d059b531-49dd-4815-8339-a7cad80e6fe6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d059b531-49dd-4815-8339-a7cad80e6fe6" testId="07ce9f38-6ad8-6b2d-2f6f-4498928ae798" testName="CreateTest" computerName="GARY-PC" duration="00:00:01.5137392" startTime="2012-12-11T20:22:33.8960000+00:00" endTime="2012-12-11T20:22:35.6780000+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d059b531-49dd-4815-8339-a7cad80e6fe6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestProject1.TaskControllerTest.CreateTest() in C:\Users\GARY\Desktop\ProjectDec\Iteration_1\Iteration_1\Roisin2\Revision3\Revision_3\FinalProject_16\TestProject1\TaskControllerTest.cs:line 106
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
