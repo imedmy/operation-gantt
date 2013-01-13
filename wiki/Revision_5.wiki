@@ -16,8 +16,8 @@ Set up a Database Manager Model:
    # RowSortPreInsert
    # RowSortAfterDelete
 
- * 1. RowNoRetrieval is called when creating a new task. A query is sent to the database to find the last row id and the new task is then given a new row id which will become the new final task
- * 2. RowSortPreInsert is called if a user wants to put a new task in a row id other than the last row. This method is called when "Insert" is selected. Tasks are renumbered to create a space within the database list for the new task.
+ * 1. RowNoRetrieval is called when creating a new task. First a query is sent to the database to find the last existing row id and then the new task is given the next ascending row id.
+ * 2. RowSortPreInsert is called if a user wants to put a new task in a row id other than the last row. This method is called when "Insert" is selected. Tasks are renumbered to create a space within the database list for the new task before it is created.
  * 3. RowSortAfterDelete is called upon after a task is deleted. It will renumber all tasks so all row ids are in sequence and have no gaps after a task delete.
 
 ----
