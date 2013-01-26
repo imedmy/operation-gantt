@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ProjectRevision5.Models.Task>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@*<pre>*@
+<table>
+    <tr>
+        <th>
+            Row
+        </th>
+        <th>
+            Task
+        </th>
+        <th>
+            Start Date
+        </th>
+        <th>
+            End Date
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Row_ID)
+        </td>
+        <td>@Html.DisplayFor(modelItem => item.Task_Name)</td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Start_Time)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.End_Time)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Row_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Row_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Row_ID }) |
+            @Html.ActionLink("Insert", "Insert", new { id=item.Row_ID })
+        </td>
+    </tr>
+}
+
+</table>
+@*</pre>*@
