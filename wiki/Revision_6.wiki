@@ -10,5 +10,5 @@ For Revision 6 the two main tasks achieved were
 URL: http://roisinsfavouriteproject.cloudapp.net/
 ----
  # Connect Gantt Chart creator to the database:
-  *     This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. This list was then sent to the chart controller where another foreach loop was used to split the list into its seperate elements so they could be added to the chart.
+  * 2.    This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. This list was then sent to the chart controller where another foreach loop was used to split the list into its seperate elements so they could be added to the chart.
 ----
