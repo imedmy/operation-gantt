@@ -10,5 +10,5 @@ Add a web role:
 URL: http://roisinsfavouriteproject.cloudapp.net/
 ----
 Connect Gantt Chart creator to the database:
-This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. The big problem I encountered here was similar to revision 5 where I had problems executing For loops when transferring the database query into a list I could work with so I used a Foreach instead which worked perfectly. This list was then sent to the chart controller where I used another foreach loop to split the list into its seperate elements so they could be added to the chart.
+  #     This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. The big problem I encountered here was similar to revision 5 where I had problems executing For loops when transferring the database query into a list I could work with so I used a Foreach instead which worked perfectly. This list was then sent to the chart controller where I used another foreach loop to split the list into its seperate elements so they could be added to the chart.
 ----
