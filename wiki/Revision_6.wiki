@@ -5,10 +5,10 @@ For Revision 6 the two main tasks achieved were
   # Connect Gantt Chart creator to the database
 
 ----
-Add a web role:
-  #	A web role was added to the project before being packaged and launched on azure cloud. 
+ # Add a web role:
+  *	A web role was added to the project before being packaged and launched on azure cloud. 
 URL: http://roisinsfavouriteproject.cloudapp.net/
 ----
-Connect Gantt Chart creator to the database:
-  #     This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. The big problem I encountered here was similar to revision 5 where I had problems executing For loops when transferring the database query into a list I could work with so I used a Foreach instead which worked perfectly. This list was then sent to the chart controller where I used another foreach loop to split the list into its seperate elements so they could be added to the chart.
+ # Connect Gantt Chart creator to the database:
+  *     This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. This list was then sent to the chart controller where another foreach loop was used to split the list into its seperate elements so they could be added to the chart.
 ----
