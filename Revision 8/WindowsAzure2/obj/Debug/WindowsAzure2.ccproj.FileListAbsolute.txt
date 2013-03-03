@@ -1,0 +1,2 @@
+C:\Users\GARY\Desktop\Semester2\4. Project\GoogleCodeDownloads\ProjectRevision6\WindowsAzure2\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\GARY\Desktop\Semester2\4. Project\GoogleCodeDownloads\ProjectRevision7\WindowsAzure2\bin\Debug\ServiceConfiguration.cscfg

@@ -1,0 +1,55 @@
+﻿@model ProjectRevision5.Models.Task
+
+@{
+    ViewBag.Title = "Create";
+    int RowID = ViewBag.RowIDNumber;
+    int Indent_Count = ViewBag.Indent_Count;
+}
+
+<h2>Create</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Task</legend>
+
+        <h4>Row Number: @ViewBag.RowIDNumber</h4>
+        @Html.Hidden("Row_ID", (object)RowID)
+        @Html.Hidden("Indent_Count", (object)Indent_Count)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Task_Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Task_Name)
+            @Html.ValidationMessageFor(model => model.Task_Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Start_Time)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Start_Time)
+            @Html.ValidationMessageFor(model => model.Start_Time)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.End_Time)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.End_Time)
+            @Html.ValidationMessageFor(model => model.End_Time)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

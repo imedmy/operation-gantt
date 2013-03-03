@@ -1,0 +1,7 @@
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\bin\EntityFramework.dll
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\bin\EntityFramework.xml
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\bin\ProjectRevision5.dll
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\bin\ProjectRevision5.pdb
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\obj\Debug\ProjectRevision5.dll
+C:\Users\GARY\Desktop\ProjectDec\ProjectRevision5\ProjectRevision5\obj\Debug\ProjectRevision5.pdb
