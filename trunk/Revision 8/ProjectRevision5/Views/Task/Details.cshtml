@@ -1,0 +1,30 @@
+﻿@model ProjectRevision5.Models.Task
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Task</legend>
+
+    <div class="display-label">Task_Name</div>
+    <div class="display-field">
+            @Html.DisplayFor(model => model.Task_Name)
+    </div>
+
+    <div class="display-label">Start_Time</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Start_Time)
+    </div>
+
+    <div class="display-label">End_Time</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.End_Time)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Row_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
