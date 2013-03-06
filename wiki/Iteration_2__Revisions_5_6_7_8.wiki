@@ -1,11 +1,12 @@
 *Iteration 2*
 Work in Progress -----ignore----------ignore all----
-For the first iteration the intention as stated in the Analysis  Document was to implement the following:
-  # User Story 5: Add New Task
-  # User Story 6: Edit Existing Task
+
+For the second iteration the intention as stated in the Analysis  Document was to implement the following:
+  # User Story 7: Add New Summary Task
+  # User Story 8: Edit Existing Summary Task
 
 ----
-Both User Stories were successfully implemented within the context of Entity Framework. This was achieved by the following:
+Both User Stories were successfully implemented in this iteration. This was achieved by the following:
  * A Windows Azure Database called Project was created
  * One table called Task was created with 4 fields:
    # Row_ID
