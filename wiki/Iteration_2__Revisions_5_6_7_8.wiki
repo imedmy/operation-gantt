@@ -7,16 +7,22 @@ For the second iteration the intention as stated in the Analysis  Document was t
   # User Story 9: Save and Logout
   # User Story 10: Save and Create New Project
 ----
-User Stories 7 and 8 were successfully implemented in this iteration. This was achieved by the following:
- * A Windows Azure Database called Project was created
- * One table called Task was created with 4 fields:
-   # Row_ID
-   # Task_Name
-   # Start_Time
-   # End_Time
- * A new web page called Task was created that used CRUD and Entity Framework to manage all tasks within Azure Database. 
- * A dropdown JQuery datepicker was also used to ensure validation of Start and End times. 
-One outstanding issue in this area (to be implemented in Iteration 2) is to automatically increment the Row_ID as each task is added (or decremented on delete). Currently it allows the Row_ID to be manually inserted.
+User Stories 7 and 8 were successfully implemented in this iteration. This was achieved through the following steps:
 
 ----
-An additional web page was then created called MyChart with the intention of displaying all previous tasks in a Gantt chart. This will now be completed in Iteration 2. However Iteration 1 did successfully
+Clean up previous source code:
+ * 1.	Project was reconstructed from beginning. The Ado.Net Entity Data Model replaced the NuGet 3rd party software previously used. This made the code cleaner and smaller. 
+
+ * 2.   Reconstructed JQuery datepicker. Previously had two methods combined and only 1 worked. Rebuilt just 1 method so code is now cleaner and smaller.	
+----
+Set up a Database Manager Model:
+ * The new model contained 3 essential methods:
+   # RowNoRetrieval
+   # RowSortPreInsert
+   # RowSortAfterDelete
+
+ * 1. RowNoRetrieval is called when creating a new task. First a query is sent to the database to find the last existing row id and then the new task is given the next ascending row id.
+ * 2. RowSortPreInsert is called if a user wants to put a new task in a row id other than the last row. This method is called when "Insert" is selected. Tasks are renumbered to create a space within the database list for the new task before it is created.
+ * 3. RowSortAfterDelete is called upon after a task is deleted. It will renumber all tasks so all row ids are in sequence and have no gaps after a task delete.
+
+----
