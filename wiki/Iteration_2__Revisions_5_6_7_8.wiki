@@ -1,5 +1,4 @@
 *Iteration 2*
-Work in Progress -----ignore----------ignore all----
 
 For the second iteration the intention as stated in the Analysis  Document was to implement the following:
   # User Story 7: Add New Summary Task
