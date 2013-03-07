@@ -11,11 +11,11 @@ User Stories 7 and 8 were successfully implemented in this iteration. This was a
 
 ----
 * 1.  Clean up previous source code:
- *	Project was reconstructed from beginning. The Ado.Net Entity Data Model replaced the NuGet 3rd party software previously used. This made the code cleaner and smaller. 
+ *   Project was reconstructed from beginning. The Ado.Net Entity Data Model replaced the NuGet 3rd party software previously used. This made the code cleaner and smaller. 
 
- *    Reconstructed JQuery datepicker. Previously had two methods combined and only 1 worked. Rebuilt just 1 method so code is now cleaner and smaller.	
+ *   Reconstructed JQuery datepicker. Previously had two methods combined and only 1 worked. Rebuilt just 1 method so code is now cleaner and smaller.	
 ----
-Set up a Database Manager Model:
+* 2.   Set up a Database Manager Model:
  * The new model contained 3 essential methods:
    # RowNoRetrieval
    # RowSortPreInsert
