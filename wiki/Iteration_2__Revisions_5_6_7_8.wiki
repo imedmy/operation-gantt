@@ -36,5 +36,11 @@ URL: http://roisinsfavouriteproject.cloudapp.net/
   *	An extra column was added to the task table called Indent_Counter. This was an integer variable that helps record a task as either a summary task or a subtask and assisted with the tab positioning of this task in both the task list and gantt chart. 
 ----
 6. Added functionality to create Subtasks and Summary Tasks
-  *     This was achieved by creating 2 action results in the Task controller called "TabLeft" and "TabRight" as well as extending the functionality within the DatabaseManager model by extending the GetDatabaseTasks method and adding a TrimEnding method. Together they can change tasks into summary or subtasks or vice versa. Boundary limits exist in these methods so a subtask can only indent by 1 at each root change. To manage these tabs/spaces it was necessary to insert a PRE wrapper to preserve this spacing in Html. Additional spacing was also created after each task name in order to align tasks within the chart creator itself.
+  *     This was achieved by creating 2 action results in the Task controller called "TabLeft" and "TabRight" as well as extending the functionality within the DatabaseManager model by extending the GetDatabaseTasks method and adding a TrimEnding method. Together they can change tasks into summary or subtasks or vice versa. Boundary limits exist in these methods so a subtask can only indent by 1 at each root change. To manage these tabs/spaces it was necessary to insert a PRE wrapper to preserve this spacing in Html. Additional spacing was also created after each task name in order to align tasks within the chart creator itself. 
+----
+7. Assign Summary Task Dates
+  *	For Revision 8 the main task achieved was to extract the minimum start time and maximum end time from all subtasks and insert them into the corresponding summary tasks. This had to work for multiple subtask layers. Currently the code allows for infinite subtask layers. This code was placed in a new method called AssignSummaryDates within the DatabaseManager.cs model file.
+----
+8. Minor Alterations
+  *     The X - axis labels were changed to better display each monthly breakdown of tasks using a custom label in the gantt chart display.
 ----
