@@ -10,8 +10,8 @@ For the second iteration the intention as stated in the Analysis  Document was t
 User Stories 7 and 8 were successfully implemented in this iteration. This was achieved through the following steps:
 
 ----
-Clean up previous source code:
- * 1.	Project was reconstructed from beginning. The Ado.Net Entity Data Model replaced the NuGet 3rd party software previously used. This made the code cleaner and smaller. 
+* 1.  Clean up previous source code:
+ #	Project was reconstructed from beginning. The Ado.Net Entity Data Model replaced the NuGet 3rd party software previously used. This made the code cleaner and smaller. 
 
  * 2.   Reconstructed JQuery datepicker. Previously had two methods combined and only 1 worked. Rebuilt just 1 method so code is now cleaner and smaller.	
 ----
