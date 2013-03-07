@@ -24,5 +24,11 @@ User Stories 7 and 8 were successfully implemented in this iteration. This was a
  * 1. RowNoRetrieval is called when creating a new task. First a query is sent to the database to find the last existing row id and then the new task is given the next ascending row id.
  * 2. RowSortPreInsert is called if a user wants to put a new task in a row id other than the last row. This method is called when "Insert" is selected. Tasks are renumbered to create a space within the database list for the new task before it is created.
  * 3. RowSortAfterDelete is called upon after a task is deleted. It will renumber all tasks so all row ids are in sequence and have no gaps after a task delete.
-
+----
+3. Add a web role:
+  *	A web role was added to the project before being packaged and launched on azure cloud. 
+URL: http://roisinsfavouriteproject.cloudapp.net/
+----
+4. Connect Gantt Chart creator to the database:
+  *     This was achieved by creating a 4th method in the "DatabaseManager" model called "GetDatabaseTasks" which pulls the list of tasks from the database and sends them to the chart controller. This list was then sent to the chart controller where another foreach loop was used to split the list into its seperate elements so they could be added to the chart.
 ----
