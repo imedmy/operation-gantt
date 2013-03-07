@@ -4,9 +4,10 @@ Work in Progress -----ignore----------ignore all----
 For the second iteration the intention as stated in the Analysis  Document was to implement the following:
   # User Story 7: Add New Summary Task
   # User Story 8: Edit Existing Summary Task
-
+  # User Story 9: Save and Logout
+  # User Story 10: Save and Create New Project
 ----
-Both User Stories were successfully implemented in this iteration. This was achieved by the following:
+User Stories 7 and 8 were successfully implemented in this iteration. This was achieved by the following:
  * A Windows Azure Database called Project was created
  * One table called Task was created with 4 fields:
    # Row_ID
