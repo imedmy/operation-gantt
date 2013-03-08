@@ -44,4 +44,3 @@ URL: http://roisinsfavouriteproject.cloudapp.net/
   *     The X - axis labels were changed to better display each monthly breakdown of tasks using a custom label in the gantt chart display.
 ----
 User Stories 9 and 10 were not implemented in this iteration as intended due to the large time over-run in getting the AssignSummaryDates method implemented. These will now be implemented in the next iteration.
-----
