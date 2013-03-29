@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectModelStoreContainer" CdmEntityContainer="ProjectEntities">
+    <EntitySetMapping Name="Tasks">
+      <EntityTypeMapping TypeName="ProjectModel.Task">
+        <MappingFragment StoreEntitySet="Task">
+          <ScalarProperty Name="Indent_Counter" ColumnName="Indent_Counter" />
+          <ScalarProperty Name="End_Time" ColumnName="End_Time" />
+          <ScalarProperty Name="Start_Time" ColumnName="Start_Time" />
+          <ScalarProperty Name="Task_Name" ColumnName="Task_Name" />
+          <ScalarProperty Name="Row_ID" ColumnName="Row_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
