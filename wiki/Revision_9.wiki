@@ -1,0 +1,11 @@
+*Revision 9*
+
+For Revision 9 the main task achieved was to improve the display problem of the task alignment in the chart and also to get rid of several bugs in the code.
+  
+----
+1. Improve Task Display in Chart Tab
+  *	This 
+----
+2. Debugging
+  *     The 
+----
