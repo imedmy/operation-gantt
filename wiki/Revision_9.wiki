@@ -12,8 +12,8 @@ In summary it involved replacing the "GetDatabaseTasks" method in the "DatabaseM
 # The second method created was called "GetTasksToChart" which deals with the text alignment in the Chart page and also calls on the third method to calculate the image pixel width of each         string.
 # The third method created was called "MeasureText" which essentially converts each task name into an image and calculates how many pixel widths this task occupies on screen. It then sends this information back to the second method where the post spacing is added to the task name before sending to the chart. 
 ----
-2. Debugging
-  *     The following is a list of bugs that were fixed:
+* 2. Debugging
+The following is a list of bugs that were fixed:
     1.    The delete method now only allows deletion of Summary Tasks when all SubTasks are deleted first.
     2.    The insert method gives the same indent counter value to the new task to ensure existing subtask groupings are not split into 2 groups.    
     3.    The summary task is now able to increase/decrease in size when subtasks are edited (Previously only increased).
