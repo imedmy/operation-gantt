@@ -1,11 +1,11 @@
 *Revision 10*
 
-For Revision 10 the 2 main tasks achieved were to simplify the Chart controller and to try and overlay a basic point chart onto the gantt chart.
+For Revision 10 the 2 main tasks achieved were to simplify the Chart controller and to overlay a basic point chart onto the Gantt Chart.
   
 ----
 * 1. Simplify the Chart controller	
 
-Since we will now be doing a lot of work in the gantt chart display it was necessary to simplify the Chart controller. This was done by moving over half the Controller code into a ChartBuilder model and it is hoped to move over more by the end of the project.
+Since a lot of functionality is currently being added to the gantt chart display it was necessary to simplify the Chart controller. This was done by moving over half the Controller code into a ChartBuilder model and it is hoped to move over more by the end of the project.
 ----
 * 2. Overlay a basic point chart onto the Gantt Chart
 
@@ -13,5 +13,5 @@ I had enabled the gantt chart to add lines between dependent tasks which works f
 
 I came up with a work-around solution whereby I will use a point chart and align points to create the same effect as a line. In this way I can add multiple points/predecessor lines. In summary the chart will work by combining a separate point chart and a stacked bar chart.
 
-For this revision 4 fixed points were coded into the solution to show the point overlay taking place successfully.
+For this version four fixed points were coded into the solution to show the point overlay taking place successfully.
 ----
