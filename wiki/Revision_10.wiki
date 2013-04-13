@@ -1,24 +1,17 @@
 *Revision 10*
 
-For Revision 10 the 2 main tasks achieved were to simplify the Chart controller and to try and overlay a basic point chart onto the gantt chart. I did this by moving over half the Controller code into a ChartBuilder model
+For Revision 10 the 2 main tasks achieved were to simplify the Chart controller and to try and overlay a basic point chart onto the gantt chart.
   
 ----
 * 1. Simplify the Chart controller	
 
-Since I was doing a lot of work in the gantt chart display it was necessary to simplify the Chart controller. I did this by moving over half the Controller code into a ChartBuilder model and will hope to move over more by the end of the project.
-
-In summary it involved replacing the "GetDatabaseTasks" method in the "DatabaseManager" controller with 3 new methods:
- # The first method was called "GetTasksToIndex" and simply only has to worry about the prespace in the Tasks tab index page which was working fine anyway but is now cleaner and simpler. This method gets away with counting the number of characters the old way because it only works with the Index page in the Task tab.
- # The second method created was called "GetTasksToChart" which deals with the text alignment in the Chart page and also calls on the third method to calculate the image pixel width of each         string.
- # The third method created was called "MeasureText" which essentially converts each task name into an image and calculates how many pixel widths this task occupies on screen. It then sends this information back to the second method where the post spacing is added to the task name before sending to the chart. 
+Since we will now be doing a lot of work in the gantt chart display it was necessary to simplify the Chart controller. This was done by moving over half the Controller code into a ChartBuilder model and it is hoped to move over more by the end of the project.
 ----
-* 2. Debugging
+* 2. Overlay a basic point chart onto the Gantt Chart
 
-The following is a list of bugs that were fixed:
+I had enabled the gantt chart to add lines between dependent tasks which works fine except it only works for one line in total and gives problems when trying to add more than one line. 
 
- # The delete method now only allows deletion of Summary Tasks when all SubTasks are deleted first.
- # The insert method gives the same indent counter value to the new task to ensure existing subtask groupings are not split into 2 groups.    
- # The summary task is now able to increase/decrease in size when subtasks are edited (Previously only increased).
- # The summary task method "AssignSummaryDates" is now called upon for deletions, insertions and edits.          
- # TabLeft and TabRight can now only be called upon if the task is not linked with any summary task/subtask groupings.
+I came up with a work-around solution whereby I will use a point chart and align points to create the same effect as a line. In this way I can add multiple points/predecessor lines. In summary the chart will work by combining a separate point chart and a stacked bar chart.
+
+For this revision 4 fixed points were coded into the solution to show the point overlay taking place successfully.
 ----
