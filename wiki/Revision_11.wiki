@@ -4,5 +4,6 @@ For Revision 11 the main task achieved was to add a new method into the Database
   
 ----
 * 1. AssignPredecessor Method	
+
 This method gets tasks which are dependent on predecessor tasks and automatically edits their start and end dates to comply with the predecessor criteria.
 ----
