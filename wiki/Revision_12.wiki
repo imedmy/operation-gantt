@@ -1,0 +1,13 @@
+*Revision 12*
+
+Revision 12 contained some very minor changes to bring the project to its final submission. It contained 2 display changes and an essential bug fix
+  
+----
+* 1. Display Improvements	
+
+This method gets tasks which are dependent on predecessor tasks and automatically edits their start and end dates to comply with the predecessor criteria.
+----
+* 2. Defect Fix	
+
+This method gets tasks which are dependent on predecessor tasks and automatically edits their start and end dates to comply with the predecessor criteria.
+----
