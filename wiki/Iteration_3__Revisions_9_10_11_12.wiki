@@ -1,13 +1,10 @@
 *Iteration 3*
 
-For this third and final iteration the intention was to enable Predecessor relationships between tasks. While several user stories remained outstanding it was decided by the project team that this predecessor functionality would add more value to the overall project than completing the remaining user stories
+For this third and final iteration the intention was to enable Predecessor relationships between tasks. While several user stories remained outstanding it was decided by the project team that this predecessor functionality would add more value to the overall project than completing the remaining user stories.
+----
+The Predecessor functionality was successfully achieved in this iteration through the following steps:
 ----
 
-*Revision 9*
-
-For Revision 9 the 2 main tasks achieved were to improve the display problem of the text alignment in the chart tab and also to get rid of several bugs in the code.
-  
-----
 * 1. Improve Text Alignment Display in Chart Tab	
 
 Originally the code was counting the number of characters for each task and adding white spacing as required which proved inadequate as some characters took up more space on the screen than others. This made it necessary to find an alternative method of calculating string width which was found using an image width measurement built in method called "drawgraphics.measurestring". This method was put into a purpose built method that also converted each string into a bitmap image prior to calculating the pixel width and returning each value to the calling method.
