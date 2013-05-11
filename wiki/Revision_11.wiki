@@ -9,5 +9,12 @@ For Revision 11 the main tasks achieved were:
 ----
 * 1. AssignPredecessor Method	
 
-This method is very similar to the AssignSummaryDates method because it manages the Start and End Dates for all tasks. However the AssignPredecessor method uses a different set of criteria which primarily check whether a task has a Predecessor value that does not equal 0. If this is the case then that task must start on or after the end date of the task whose row id is the predecessor value. If the task does not comply with this the method will change the task start date to equal the predecessor end date and also change the task end date while keeping the task duration the same as before
+This method is very similar to the AssignSummaryDates method because it manages the Start and End Dates for all tasks. However the AssignPredecessor method uses a different set of criteria which primarily check whether a task has a Predecessor task (value <> 0). If this is the case then that current task must start on or after the end date of the predecessor task. If it does not the method will change the current task start date to equal the predecessor end date and also change the current task end date while keeping the current task duration the same as before.
 ----
+* 2. Predecessor field
+
+A Predecessor field was added throughout the TaskController/Task Page to allow the user to input a Predecessor relationship between tasks. Currently the application allows one Predecessor value to be entered which must be also be a previous row id.
+----
+* 3. Update Database to include Predecessor field
+
+A new field was added to Azure Database called
