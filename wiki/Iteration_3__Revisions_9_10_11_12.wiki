@@ -16,7 +16,7 @@ In summary it involved replacing the "GetDatabaseTasks" method in the "DatabaseM
 ----
 * 2. Debugging
 
-The following is a list of bugs that were fixed:
+The following is a list of bugs that were fixed at this stage:
 
  # The delete method now only allows deletion of Summary Tasks when all SubTasks are deleted first.
  # The insert method gives the same indent counter value to the new task to ensure existing subtask groupings are not split into 2 groups.    
@@ -25,19 +25,12 @@ The following is a list of bugs that were fixed:
  # TabLeft and TabRight can now only be called upon if the task is not linked with any summary task/subtask groupings.
 
 ----
-----
-----
 
-*Revision 10*
-
-For Revision 10 the 2 main tasks achieved were to simplify the Chart controller and to overlay a basic point chart onto the Gantt Chart.
-  
-----
-* 1. Simplify the Chart controller	
+* 3. Simplify the Chart controller	
 
 Since a lot of functionality is currently being added to the gantt chart display it was necessary to simplify the Chart controller. This was done by moving over half the Controller code into a ChartBuilder model and it is hoped to move over more by the end of the project.
 ----
-* 2. Overlay a basic point chart onto the Gantt Chart
+* 4. Overlay a basic point chart onto the Gantt Chart
 
 I had enabled the gantt chart to add lines between dependent tasks which works fine except it only works for one line in total and gives problems when trying to add more than one line. 
 
@@ -45,54 +38,30 @@ I came up with a work-around solution whereby I will use a point chart and align
 
 For this version four fixed points were coded into the solution to show the point overlay taking place successfully.
 
-----
-----
-----
-
-*Revision 11*
-
-For Revision 11 the main tasks achieved were:
- # Create a new method in the DatabaseManager Model called AssignPredecessor.
- # Add predecessor field to all areas of the TaskController/Task Page
- # Update Database to include Predecessor field
- # Update ChartBuilder to create Predecessor lines
   
 ----
-* 1. AssignPredecessor Method	
+* 5. AssignPredecessor Method	
 
 This method is very similar to the AssignSummaryDates method because it manages the Start and End Dates for all tasks. However the AssignPredecessor method uses a different set of criteria which primarily check whether a task has a Predecessor task (value <> 0). If this is the case then that current task must start on or after the end date of the predecessor task. If it does not the method will change the current task start date to equal the predecessor end date and also change the current task end date while keeping the current task duration the same as before.
 ----
-* 2. Add predecessor field to TaskController/Task Page
+* 6. Add predecessor field to TaskController/Task Page
 
 A Predecessor field was added throughout the TaskController/Task Page to allow the user to input a Predecessor relationship between tasks. Currently the application allows one Predecessor value to be entered which must be also be a previous row id.
 ----
-* 3. Update Database to include Predecessor field
+* 7. Update Database to include Predecessor field
 
 A new field was added to Azure Database called Predecessor. This field must be 0 if no value is required in order to support the application validation.
 Once this was created the database model mapper was refreshed within the application.
 ----
-* 4. Update ChartBuilder to create Predecessor lines
+* 8. Update ChartBuilder to create Predecessor lines
 
 The ChartBuilder model was updated to create all the new points/lines necessary to properly display the predecessor relationship between tasks.
-----
-
-----
-----
-----
-
-*Revision 12*
-
-Revision 12 contained some very minor changes to bring the project to its final submission. It contains 2 display changes and an essential bug fix
   
 ----
-* 1. Display Improvements	
+* 9. Display Improvements	
 
 To improve performance in the Task page I replaced  the indent left and right images with '<<<' and '>>>'. In the Chart page to improve the readability of the predecessor lines I added line branches to clearly show what task was connected to which predecessor line.
 ----
-* 2. Defect Fix	
+* 10. Defect Fix	
 
 A minor bug occured in the task page when the last task contained a predecessor value which caused the application to fall over.
-
-----
-----
-----
