@@ -1,9 +1,13 @@
 *Revision 11*
 
-For Revision 11 the main tasks achieved were to add a new method into the DatabaseManager model called AssignPredecessor.
+For Revision 11 the main tasks achieved were:
+ # Create a new method in the DatabaseManager Model called AssignPredecessor.
+ # Add predecessor field to all areas of the TaskController/Task Page
+ # Update Database to include Predecessor field
+ # Update ChartBuilder to create Predecessor lines
   
 ----
 * 1. AssignPredecessor Method	
 
-This method gets tasks which are dependent on predecessor tasks and automatically edits their start and end dates to comply with the predecessor criteria.
+This method is very similar to the AssignSummaryDates method because it manages the Start and End Dates for all tasks. However the AssignPredecessor method uses a different set of criteria which primarily check whether a task has a Predecessor value that does not equal 0. If this is the case then that task must start on or after the end date of the task whose row id is the predecessor value. If the task does not comply with this the method will change the task start date to equal the predecessor end date and also change the task end date while keeping the task duration the same as before
 ----
