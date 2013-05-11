@@ -64,4 +64,4 @@ To improve performance in the Task page I replaced  the indent left and right im
 ----
 * 10. Defect Fix	
 
-A minor bug occured in the task page when the last task contained a predecessor value which caused the application to fall over.
+A major defect that occured in the task page when the last task contained a predecessor value which caused the application to fall over was successfully fixed before updating the live link with the final version.
