@@ -68,5 +68,5 @@ A major defect that occured in the task page when the last task contained a pred
 ----
 * 11. Update Live Link
 
-The live link was updated with this final version.
+The live link was updated to the final version.
 URL: http://roisinsfavouriteproject.cloudapp.net/
