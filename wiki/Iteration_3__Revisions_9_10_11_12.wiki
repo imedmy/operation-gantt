@@ -67,5 +67,6 @@ To improve performance in the Task page I replaced  the indent left and right im
 A major defect that occured in the task page when the last task contained a predecessor value which caused the application to fall over was successfully fixed.
 ----
 * 11. Update Live Link
+
 The live link was updated with this final version.
 URL: http://roisinsfavouriteproject.cloudapp.net/
