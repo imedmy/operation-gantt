@@ -17,4 +17,10 @@ A Predecessor field was added throughout the TaskController/Task Page to allow t
 ----
 * 3. Update Database to include Predecessor field
 
-A new field was added to Azure Database called
+A new field was added to Azure Database called Predecessor to store the new value. This field must be 0 if no value is required in order to support the application validation.
+Once this was created the database model was refreshed within the application to pick up the new field.
+----
+* 4. Update ChartBuilder to create Predecessor lines
+
+The ChartBuilder model was updated to create all the new points/lines necessary to properly display the predecessor relationship between tasks.
+----
