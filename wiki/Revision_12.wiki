@@ -5,7 +5,7 @@ Revision 12 contained some very minor changes to bring the project to its final 
 ----
 * 1. Display Improvements	
 
-To improve performance in the task I replaced  the indent left and right images with '<<<' and '>>>'. In the chart tab to improve the readability of the predecessor lines I added line branches to clearly show that a task was connected to the predecessor line.
+To improve performance in the Task page I replaced  the indent left and right images with '<<<' and '>>>'. In the Chart page to improve the readability of the predecessor lines I added line branches to clearly show what task was connected to which predecessor line.
 ----
 * 2. Defect Fix	
 
