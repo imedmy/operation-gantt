@@ -1,6 +1,6 @@
 *Revision 11*
 
-For Revision 11 the main task achieved was to add a new method into the DatabaseManager model called AssignPredecessor.
+For Revision 11 the main tasks achieved were to add a new method into the DatabaseManager model called AssignPredecessor.
   
 ----
 * 1. AssignPredecessor Method	
