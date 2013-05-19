@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="759d6b4a-f2f0-471d-aa9e-9b9444cd47a6" name="GARY@GARY-PC 2013-05-19 11:32:17" runUser="GARY-PC\GARY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b2bda9e8-ca3a-4688-9bad-6903683352bd">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="GARY_GARY-PC 2013-05-19 11_32_17">
+      <DeploymentItem filename="C:\Users\GARY\Desktop\Semester2\4. Project\GoogleCodeDownloads\ProjectRevision 12FinalTest\ProjectRevision5\bin\ProjectRevision5.dll" />
+      <DeploymentItem filename="C:\Users\GARY\Desktop\Semester2\4. Project\GoogleCodeDownloads\ProjectRevision 12FinalTest\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="c:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.StorageClient.dll" />
+      <DeploymentItem filename="c:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="c:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Diagnostics.dll" />
+      <DeploymentItem filename="c:\Program Files\Microsoft ASP.NET\ASP.NET MVC 3\Assemblies\System.Web.Mvc.dll" />
+      <DeploymentItem filename="c:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\2012-06\ref\Microsoft.WindowsAzure.Configuration.dll" />
+      <DeploymentItem filename="c:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\Assemblies\System.Web.Helpers.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-19T11:32:17.3923260+01:00" queuing="2013-05-19T11:32:17.4613260+01:00" start="2013-05-19T11:32:17.4923260+01:00" finish="2013-05-19T11:32:26.9413260+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateTest" storage="c:\users\gary\desktop\semester2\4. project\googlecodedownloads\projectrevision 12finaltest\testproject2\bin\debug\testproject2.dll" id="4cfabfc5-6cfe-772b-2cb1-92d8f8fc8d37">
+      <Execution id="d9c964bc-4ae3-4a92-8230-beffd150271b" />
+      <TestMethod codeBase="C:/Users/GARY/Desktop/Semester2/4. Project/GoogleCodeDownloads/ProjectRevision 12FinalTest/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject2.TaskControllerTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4cfabfc5-6cfe-772b-2cb1-92d8f8fc8d37" executionId="d9c964bc-4ae3-4a92-8230-beffd150271b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d9c964bc-4ae3-4a92-8230-beffd150271b" testId="4cfabfc5-6cfe-772b-2cb1-92d8f8fc8d37" testName="CreateTest" computerName="GARY-PC" duration="00:00:08.9466548" startTime="2013-05-19T11:32:17.6723260+01:00" endTime="2013-05-19T11:32:26.8973260+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9c964bc-4ae3-4a92-8230-beffd150271b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;11/12/2012 00:00:00&gt;. Actual:&lt;23/05/2013 00:00:00&gt;. </Message>
+          <StackTrace>   at TestProject2.TaskControllerTest.CreateTest() in C:\Users\GARY\Desktop\Semester2\4. Project\GoogleCodeDownloads\ProjectRevision 12FinalTest\TestProject2\TaskControllerTest.cs:line 196
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
