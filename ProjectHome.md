@@ -1,0 +1,3 @@
+This project will be a Project Management Web Application that will allow  users to create and view Gantt charts. Users will also be able to store gantt charts once they are created so that the user can access them upon returning to the website. The application will also allow push notifications to a user’s mobile phone to show upcoming task deadlines from within the gantt chart.
+
+It will be constructed using the .Net Framework with Visual Studio 2010 MVC 3. Hosting of the application will be provided by Microsoft Windows Azure. The supporting database will be database first using Entity Framework and Azure SQL Database.
